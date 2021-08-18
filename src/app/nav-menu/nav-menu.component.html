@@ -5,9 +5,9 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#">About Me</a>
+      <a mat-list-item href="#">My Projects</a>
+      <a mat-list-item href="#">Write Me</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -20,7 +20,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>khq-app</span>
+      <span>My Coders Portfolio</span>
     </mat-toolbar>
     <!-- Add Content Here -->
 <ng-content></ng-content>
